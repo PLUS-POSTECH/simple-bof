@@ -1,0 +1,12 @@
+name = "simple-bof"
+
+[[executable]]
+path = "build/simple-bof"
+public = true
+
+[[readonly]]
+path = "flag"
+
+[binary]
+os = "ubuntu:16.04"
+entry = "./simple-bof"
